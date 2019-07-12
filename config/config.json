@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sharepoint-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharepointData/SharepointDataWebPart.js",
+          "manifest": "./src/webparts/sharepointData/SharepointDataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharepointDataWebPartStrings": "lib/webparts/sharepointData/loc/{locale}.js"
+  }
+}
